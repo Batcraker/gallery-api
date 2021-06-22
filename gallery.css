@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: grid;
+    /*Puedo usar porcentajes y en el numero de columnas que se quiere
+    ejemplo si quiero 3 columnas
+    grid-template-columns:33% 33% 33%;
+    o reperat()
+    grid-template-columns: repeat(3, 33%); */
+    grid-template-columns: repeat(4, 150px);
+    gap: 10px;
+}
+
+.container .image {
+    background-color: #ddd;
+    width: auto;
+}
+
+.container .image .info,
+p {
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container .image p {
+    padding: 2px 10px;
+    font-size: 15px;
+}
+
+.container .image:hover {
+    border: 1px solid #ff00ff;
+}

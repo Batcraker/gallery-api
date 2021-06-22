@@ -1,0 +1,67 @@
+body {
+    font-family: 'Arial';
+    font-size: 20px;
+}
+
+h1 {
+    color: #ff0000;
+    font-size: 30px;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(0, 255, 255);
+    font-size: 40px;
+    text-align: center;
+}
+
+p {
+    color: #000;
+}
+
+.mini_form {
+    margin-top: 10px;
+    display: flex;
+}
+
+input[type='text'] {
+    width: auto;
+    border: 1px solid #ff0000;
+    border-radius: 2px;
+    font-family: 'Arial';
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+input[type='text']:focus {
+    border: 1px solid #ff0000;
+    outline: none;
+}
+
+#click {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ff0000;
+    border-radius: 5px;
+    width: auto;
+    padding: 10px;
+    cursor: pointer;
+}
+
+table {
+    font-size: 17px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+thead {
+    background-color: #ff00ff;
+}
+
+th,
+td {
+    text-align: center;
+    border: solid 1px black;
+    padding: 10px 5px;
+}
